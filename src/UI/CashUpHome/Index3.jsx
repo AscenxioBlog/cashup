@@ -2,6 +2,7 @@ import React from 'react'
 import oval from '../../assets/Oval.png'
 import oval3 from '../../assets/Oval3.png'
 import speaker1 from '../../assets/speaker1.png'
+import BlackBtn from '../../ReusableComponent/ButtonFolder/BlackBtn'
 
 function Index3() {
     const speak1 ={
@@ -40,7 +41,10 @@ function Index3() {
                     <p className=''>{speak1.desc}</p>
                     </section>
 
-                    <button className=' h-[45px] w-[150px] bg-blackcolor text-white hover:bg-[#FFFFFF] hover:text-blackcolor'>SEE PRODUCT</button>
+                        <BlackBtn
+                        label='SEE PRODUCT'
+                        />
+                    {/* <button className=' h-[45px] w-[150px] bg-blackcolor text-white hover:bg-[#FFFFFF] hover:text-blackcolor'>SEE PRODUCT</button> */}
                 </div>
 
             </div>

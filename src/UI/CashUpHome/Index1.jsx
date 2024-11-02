@@ -1,6 +1,7 @@
 import React from 'react'
 import bitmap from '../../assets/Bitmap.png'
 import bitmap2 from '../../assets/Bitmap2.png'
+import OrangeBtn from '../../ReusableComponent/ButtonFolder/OrangeBtn'
 
 function Index1() {
   return (
@@ -29,8 +30,12 @@ function Index1() {
                 <span>enthusiast</span>
             </div>
             </div>
+            <OrangeBtn
+            label = 'SEE PRODUCT'
+            
+            />
 
-            <button className=' h-[40px] w-[140px] bg-btncolor hover:bg-btnactive text-white'>SEE PRODUCT</button>
+            {/* <button className=' h-[40px] w-[140px] bg-btncolor hover:bg-btnactive text-white'>SEE PRODUCT</button> */}
         </div>
             </div>
             </div>
@@ -66,7 +71,12 @@ function Index1() {
             </div>
             </div>
 
-            <button className=' h-[40px] w-[140px] bg-btncolor hover:bg-btnactive text-white'>SEE PRODUCT</button>
+            <OrangeBtn
+            label = 'SEE PRODUCT'
+            
+            />
+
+            {/* <button className=' h-[40px] w-[140px] bg-btncolor hover:bg-btnactive text-white'>SEE PRODUCT</button> */}
         </div>
       </div>
 
@@ -93,8 +103,12 @@ function Index1() {
                 <span>enthusiast</span>
             </div>
             </div>
+            <OrangeBtn
+            label = 'SEE PRODUCT'
+            
+            />
 
-            <button className=' h-[40px] w-[140px] bg-btncolor hover:bg-btnactive text-white'>SEE PRODUCT</button>
+            {/* <button className=' h-[40px] w-[140px] bg-btncolor hover:bg-btnactive text-white'>SEE PRODUCT</button> */}
         </div>
       </div>
     </div>
