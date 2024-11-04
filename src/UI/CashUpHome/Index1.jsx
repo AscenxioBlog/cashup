@@ -5,7 +5,8 @@ import OrangeBtn from '../../ReusableComponent/ButtonFolder/OrangeBtn'
 
 function Index1() {
   return (
-    <div className=' h-[70vh] w-full bg-blackcolor flex justify-center'>
+    <div className=' h-[70vh] w-full bg-blackcolor flex justify-center '>
+        {/* <iframe src='https://my.spline.design/clonercubesgenerativecopy-5093a3cd14e1619e050f32913c8117eb/' frameborder='0' width='100%' height='100%'></iframe> */}
       <div className=" hidden lg:inline-block  w-full md:w-[90%] lg:w-[80%]">
       <div className=" h-[70vh] w-full bg-[] grid grid-cols-1 lg:grid-cols-2 gap-2">
             <div className="h-[70vh] bg-[] hidden lg:inline-block">
