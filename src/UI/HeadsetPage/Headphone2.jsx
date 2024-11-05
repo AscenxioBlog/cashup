@@ -9,7 +9,7 @@ function Headphone2() {
         <div className=" h-[620px] lg:h-[450px] w-full bg-green-00 flex justify-center">
             <div className=" h-[300px] w-[95%] md:w-[90%] rounded-l-md rounded-r-none lg:w-[80%]  mt-[50px] grid grid-cols-1 lg:grid-cols-2">
                 <div className=" bg-[#F1F1F1] h-[300px] lg:h-[350px] rounded-md w-[90%]">
-<img src={img1} alt="" className='h-[250px] w-[280px] ml-20 mt-5'/>
+<img src={img1} alt="" className='h-[250px] w-[280px] ml-20 mt-7'/>
        
     
                 </div>
