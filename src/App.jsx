@@ -6,6 +6,7 @@ import SpeakerPage from './UI/SpeakerPage/SpeakerPage'
 import EarphonePage from './UI/EarphonePage.jsx/EarphonePage'
 import HeaderComponent from './ConstantComponent/HeaderComponent'
 import FooterComponent from './ConstantComponent/FooterComponent'
+import ProductComponent from './UI/ProductComponent/ProductComponent'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route  path='/headphone' element={<Headeset/>}/>
           <Route  path='/speaker' element={<SpeakerPage/>}/>
           <Route  path='/earphone' element={<EarphonePage/>}/>
+          <Route  path='/shop' element={<ProductComponent/>}/>
         </Routes>
         <FooterComponent/>
       </BrowserRouter>

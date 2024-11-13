@@ -27,9 +27,9 @@ function Headphone2() {
   }
 
   return (
-    <div className=' space-y-7 mt-[70px]'>
+    <div className=' space-y-10 lg:space-y-20 mt-[70px]'>
 
-        <div className=" min-h-[300px] w-full bg-[] flex justify-center">
+        <div className=" min-h-[300px] w-full bg-[] flex justify-center ">
             <div className=" min-h-[350px] w-[95%] md:w-[90%] lg:w-[80%] bg-[] grid grid-cols-1 lg:grid-cols-2 gap-3">
                 <div className="h-[350px] bg-[#F1F1F1F1] rounded-[10px] p-5 flex justify-center items-center">
                  <div className=" h-[300px] w-[80%] ">
@@ -79,7 +79,7 @@ function Headphone2() {
                  </div>
                 </div>
 
-                <div className=" lg:inline-block">
+                <div className=" lg:hidden">
              <div className=" h-[400px] md:h-[350px] bg-[] pl-[30px] text-center lg:text-start flex flex-col items-center space-y-7">
                   <p className=' text-btncolor'>NEW PRODUCT</p>
 
