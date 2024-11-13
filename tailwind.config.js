@@ -10,7 +10,6 @@ export default {
         blackcolor: '#101010',
         btncolor: '#D87D4A',
         btnactive: '#FBAF85'
-
       }
     },
   },
