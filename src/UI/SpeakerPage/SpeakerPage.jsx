@@ -10,9 +10,9 @@ function SpeakerPage() {
     <div>
       <SpeakerPage1/>
       <SpeakerPage2/>
-      <SpeakerPage3/>
+      {/* <SpeakerPage3/>
       <SpeakerPage4/>
-      <SpeakerPage5/>
+      <SpeakerPage5/> */}
     </div>
   )
 }

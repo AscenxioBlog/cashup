@@ -13,10 +13,10 @@ function Headeset() {
     <div className=' '>
     <Headphone1/>
     <Headphone2/>
-    <Headphone3/>
+    {/* <Headphone3/>
     <Headphone4/>
     <Headphone5/>
-    <Headphone6/>
+    <Headphone6/> */}
      
     </div>
   )

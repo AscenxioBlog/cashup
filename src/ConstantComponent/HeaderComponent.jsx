@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { IoCartOutline } from "react-icons/io5";
 import { IoMdMenu } from "react-icons/io";
+import CartComponent from '../UI/CartFolder/CartComponent';
+import { AppContext } from '../ContextFolder/MyContext';
 
 function HeaderComponent() {
+  const { toggleCart } = useContext(AppContext);
+
   return (
     <div className='  box-border h-[100px] w-full bg-blackcolor flex justify-center text-white fixed top-0 z-20'>
       <nav className=' h-[70px] w-full md:w-[90%] lg:w-[80%] bg-blackcolor grid grid-cols-[60%,40%]  md:grid-cols-[20%,80%] lg:grid-cols-2 gap-3' style={{borderBottom:'1px solid #979797'}}>
@@ -27,10 +31,11 @@ function HeaderComponent() {
             </div>
          </div>
 
-            <span className='font-semibold text-[25px]'><IoCartOutline />
-            </span>
+            <button onClick={toggleCart} className='font-semibold text-[25px] mr-3'><IoCartOutline />
+            </button>
           </section>
       </nav>
+            <CartComponent/>
       
     </div>
   )
